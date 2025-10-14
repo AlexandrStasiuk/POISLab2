@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="POISLab2.Site2" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Шаблон сайта 2</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Verdana;">
+    <form id="form2" runat="server">
+        <header style="background-color: #0078d7; color: white; padding: 10px;">
+            <h1>Регистрация пользователей</h1>
+        </header>
+
+        <div style="margin: 20px;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <footer style="background-color: #0078d7; color: white; padding: 10px; text-align:center;">
+            © 2025 UserRegistrationWebForms
+        </footer>
+    </form>
+</body>
+</html>
