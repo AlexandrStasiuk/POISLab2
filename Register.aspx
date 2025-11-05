@@ -1,5 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="POISLab2.Register" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="POISLab2.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:Label ID="lblCurrentMaster" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+    <br /><br />
+    <asp:DropDownList ID="ddlThemes" runat="server" AutoPostBack="true" 
+                      OnSelectedIndexChanged="ddlThemes_SelectedIndexChanged">
+        <asp:ListItem Text="Оформление 1" Value="~/Site1.Master" />
+        <asp:ListItem Text="Оформление 2" Value="~/Site2.Master" />
+    </asp:DropDownList>
     <h2>Регистрация пользователя</h2>
     <asp:Label ID="lblMessage" runat="server" ForeColor="Red"></asp:Label>
     <br /><br />

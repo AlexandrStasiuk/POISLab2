@@ -15,6 +15,24 @@ namespace POISLab2
     {
 
         /// <summary>
+        /// lblCurrentMaster элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCurrentMaster;
+
+        /// <summary>
+        /// ddlThemes элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически созданное поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlThemes;
+
+        /// <summary>
         /// lblMessage элемент управления.
         /// </summary>
         /// <remarks>
